@@ -117,9 +117,15 @@ namespace KutuphaneOtomasyonu
                 btnEkle.Enabled = true;
 
             }
-        }
+            if (res == DialogResult.No)
+            {
+                TextBoxClear();
+                btnGuncelle.Visible = true;
+                btnEkle.Visible = true;
+                btnEkle.Enabled = true;
 
-       
+            }
+        }
     }
 
     

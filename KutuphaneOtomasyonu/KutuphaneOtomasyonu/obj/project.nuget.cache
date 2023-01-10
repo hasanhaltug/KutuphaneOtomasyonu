@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "LNGaZ0seUXG1tKe07gXU6WfDrrQB/GUqB8YFanBv52gOR6MzpN30q3LxPfBqLfuhxvlSBCbbduiN0O+uV+9QfA==",
+  "dgSpecHash": "eJm4ZeEAuUyW3gyulVbogI9rHBJNDcxT40Fd7ZX8EMEQpknbPJEI6UO4JYUZfeKKjI2Cb2uFjXcxnw2zuL2naQ==",
   "success": true,
-  "projectFilePath": "C:\\Users\\hasan\\Desktop\\YazılımDersi\\Projeler\\Kutuphane Otomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu.csproj",
+  "projectFilePath": "C:\\Users\\hasan\\Desktop\\YazılımDersi\\Projeler\\Github Yüklendi\\Kutuphane Otomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.netcore.platforms\\3.1.0\\microsoft.netcore.platforms.3.1.0.nupkg.sha512",
     "C:\\Users\\hasan\\.nuget\\packages\\microsoft.win32.registry\\4.7.0\\microsoft.win32.registry.4.7.0.nupkg.sha512",

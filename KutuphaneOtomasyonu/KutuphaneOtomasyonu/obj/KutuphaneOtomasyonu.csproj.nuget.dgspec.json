@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\hasan\\Desktop\\YazılımDersi\\Projeler\\Kutuphane Otomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu.csproj": {}
+    "C:\\Users\\hasan\\Desktop\\YazılımDersi\\Projeler\\Github Yüklendi\\Kutuphane Otomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu.csproj": {}
   },
   "projects": {
-    "C:\\Users\\hasan\\Desktop\\YazılımDersi\\Projeler\\Kutuphane Otomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu.csproj": {
+    "C:\\Users\\hasan\\Desktop\\YazılımDersi\\Projeler\\Github Yüklendi\\Kutuphane Otomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\hasan\\Desktop\\YazılımDersi\\Projeler\\Kutuphane Otomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu.csproj",
+        "projectUniqueName": "C:\\Users\\hasan\\Desktop\\YazılımDersi\\Projeler\\Github Yüklendi\\Kutuphane Otomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu.csproj",
         "projectName": "KutuphaneOtomasyonu",
-        "projectPath": "C:\\Users\\hasan\\Desktop\\YazılımDersi\\Projeler\\Kutuphane Otomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu.csproj",
+        "projectPath": "C:\\Users\\hasan\\Desktop\\YazılımDersi\\Projeler\\Github Yüklendi\\Kutuphane Otomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu.csproj",
         "packagesPath": "C:\\Users\\hasan\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\hasan\\Desktop\\YazılımDersi\\Projeler\\Kutuphane Otomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu\\obj\\",
+        "outputPath": "C:\\Users\\hasan\\Desktop\\YazılımDersi\\Projeler\\Github Yüklendi\\Kutuphane Otomasyonu\\KutuphaneOtomasyonu\\KutuphaneOtomasyonu\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

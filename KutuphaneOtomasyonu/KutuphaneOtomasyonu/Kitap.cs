@@ -74,14 +74,18 @@ namespace KutuphaneOtomasyonu
         {
             DialogResult res = MessageBox.Show("Silmek istediğinizden emin misiniz?", "Kontol", MessageBoxButtons.YesNoCancel, MessageBoxIcon.Question);
             SqlCommand cmdDelete = new SqlCommand("Delete Kitaplar where ID = @SecilenUye", connection);
-
-            if ((int)dtGVKitap.SelectedRows.Count == 1 & res == DialogResult.Yes)
+           
+            if ((int)dtGVKitap.SelectedRows.Count == 1 & res == DialogResult.Yes & dtGVKitap.CurrentRow.Cells[5].Value.ToString() == "True")
             {
                 connection.Open();
                 cmdDelete.Parameters.AddWithValue("@SecilenUye", (int)dtGVKitap.SelectedCells[0].Value);
                 cmdDelete.ExecuteNonQuery();
                 connection.Close();
                 MessageBox.Show("Kitap silme işlemi başarıyla gerçekleşmiştir", "Bilgilendirme", MessageBoxButtons.OK, MessageBoxIcon.Information);
+            }
+            else if(res == DialogResult.Yes & dtGVKitap.CurrentRow.Cells[5].Value.ToString() == "False")
+            {
+                MessageBox.Show("Bu kitap henüz iade edilmedi. İade edilmeden silme işlemi gerçekleştirilemez", "Uyarı", MessageBoxButtons.OK, MessageBoxIcon.Warning);
             }
 
             dtGVKitap.DataSource = _sqlIslemler.listele("Select * From Kitaplar");
@@ -173,7 +177,14 @@ namespace KutuphaneOtomasyonu
                     btnKEkle.Visible = true;
                     btnKEkle.Enabled = true;
 
-                    }
+                }
+                if (res == DialogResult.No)
+                {
+                    TextBoxClear();
+                    btnKGuncelle.Visible = true;
+                    btnKEkle.Visible = true;
+                    btnKEkle.Enabled = true;
+                }
 
                 }              
         }
